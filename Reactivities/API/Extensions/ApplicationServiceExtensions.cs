@@ -9,6 +9,13 @@ using Persistence;
 
 namespace API.Extensions
 {
+    /*
+        cd ./Api
+        dotnet watch run
+
+        cd .\client-app\
+        npm start
+    */
     public static class ApplicationServiceExtensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services,
